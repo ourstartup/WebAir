@@ -30,6 +30,8 @@ public class UserAccountWrapper extends UserInfo
         return map;
     }
 
+
+
     public void copyUserBase(Map<String, Object> map, UserInfo userAccount)
     {
         map.put("username", userAccount.getUsername());
@@ -38,5 +40,4 @@ public class UserAccountWrapper extends UserInfo
         map.put("id", userAccount.getId());
         map.put("credits", userAccount.getCredits());
     }
-
 }
